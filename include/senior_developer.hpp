@@ -3,32 +3,14 @@
 
 #include "developer.hpp"
 
-/**
- * @brief The SeniorDeveloper class represents a senior developer, derived from Developer.
- */
+// Represents a senior-level developer, derived from Developer
 class SeniorDeveloper : public Developer {
 public:
-    /**
-     * @brief Constructs a SeniorDeveloper object.
-     * @param name The name of the senior developer.
-     * @param alias The alias of the senior developer.
-     * 
-     * Usage:
-     * @code
-     * SeniorDeveloper sd("Diana Prince", "Wonder Woman");
-     * @endcode
-     */
+    // Initializes a senior developer with name and alias
     SeniorDeveloper(const std::string& name, const std::string& alias);
 
-    /**
-     * @brief Solves a problem specific to a senior developer.
-     * 
-     * Usage:
-     * @code
-     * sd.solve_problem();
-     * @endcode
-     */
+    // Implements the solve_problem method for a senior developer
     void solve_problem() const override;
 };
 
-#endif // SENIOR_DEVELOPER_HPP
+#endif // SENIOR_DEVELOPER_HPP_wZaTL4PTjB

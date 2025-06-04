@@ -1,4 +1,4 @@
-#include "../include/developer.hpp"
+#include "developer.hpp"
 
 /**
  * @brief Constructs a Developer object.
@@ -73,4 +73,4 @@ auto operator<<(std::ostream& output_stream, const Developer& dev) -> std::ostre
        output_stream << dev.logo_;
     }
     return output_stream;
-}
+} 

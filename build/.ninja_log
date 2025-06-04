@@ -1,0 +1,11 @@
+# ninja log v5
+2	554	1748938253558029757	src/CMakeFiles/developers.dir/senior_developer.cpp.o	e2cd542a8f8cc0e7
+3	94	1748972548268200336	tests/test_developer	151711a2fc1e485f
+1	562	1748938253565029758	src/CMakeFiles/developers.dir/junior_developer.cpp.o	c9c7e812c96a6276
+3	94	1748972548268200336	tests/test_developer[1]_tests.cmake	151711a2fc1e485f
+2	390	1748972539337199596	src/CMakeFiles/developers.dir/developer.cpp.o	72cdf95bf313522d
+2	737	1748938274657030978	tests/CMakeFiles/test_developer.dir/test_developer.cpp.o	6c4f19e9d04492a7
+392	460	1748972539404199601	src/libdevelopers.a	55cca56c58577ca8
+3	552	1748972539498199609	src/CMakeFiles/main.dir/main.cpp.o	58cc7a3a2317b793
+552	603	1748972539549199613	src/main	9918e4355ed728e9
+3	94	1748972548268200336	/workspaces/Test2.0/build/tests/test_developer[1]_tests.cmake	151711a2fc1e485f

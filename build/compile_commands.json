@@ -1,0 +1,32 @@
+[
+{
+  "directory": "/workspaces/Test2.0/build",
+  "command": "/usr/bin/g++ -I/workspaces/Test2.0/src  -Wall -Wextra -pedantic -g -std=gnu++14 -o src/CMakeFiles/developers.dir/developer.cpp.o -c /workspaces/Test2.0/src/developer.cpp",
+  "file": "/workspaces/Test2.0/src/developer.cpp",
+  "output": "src/CMakeFiles/developers.dir/developer.cpp.o"
+},
+{
+  "directory": "/workspaces/Test2.0/build",
+  "command": "/usr/bin/g++ -I/workspaces/Test2.0/src  -Wall -Wextra -pedantic -g -std=gnu++14 -o src/CMakeFiles/developers.dir/junior_developer.cpp.o -c /workspaces/Test2.0/src/junior_developer.cpp",
+  "file": "/workspaces/Test2.0/src/junior_developer.cpp",
+  "output": "src/CMakeFiles/developers.dir/junior_developer.cpp.o"
+},
+{
+  "directory": "/workspaces/Test2.0/build",
+  "command": "/usr/bin/g++ -I/workspaces/Test2.0/src  -Wall -Wextra -pedantic -g -std=gnu++14 -o src/CMakeFiles/developers.dir/senior_developer.cpp.o -c /workspaces/Test2.0/src/senior_developer.cpp",
+  "file": "/workspaces/Test2.0/src/senior_developer.cpp",
+  "output": "src/CMakeFiles/developers.dir/senior_developer.cpp.o"
+},
+{
+  "directory": "/workspaces/Test2.0/build",
+  "command": "/usr/bin/g++ -I/workspaces/Test2.0/src  -Wall -Wextra -pedantic -g -std=gnu++14 -o src/CMakeFiles/main.dir/main.cpp.o -c /workspaces/Test2.0/src/main.cpp",
+  "file": "/workspaces/Test2.0/src/main.cpp",
+  "output": "src/CMakeFiles/main.dir/main.cpp.o"
+},
+{
+  "directory": "/workspaces/Test2.0/build",
+  "command": "/usr/bin/g++ -I/workspaces/Test2.0/src  -Wall -Wextra -pedantic -g -std=gnu++14 -DGTEST_HAS_PTHREAD=1 -o tests/CMakeFiles/test_developer.dir/test_developer.cpp.o -c /workspaces/Test2.0/tests/test_developer.cpp",
+  "file": "/workspaces/Test2.0/tests/test_developer.cpp",
+  "output": "tests/CMakeFiles/test_developer.dir/test_developer.cpp.o"
+}
+]

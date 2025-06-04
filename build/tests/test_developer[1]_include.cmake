@@ -1,0 +1,5 @@
+if(EXISTS "/workspaces/Test2.0/build/tests/test_developer[1]_tests.cmake")
+  include("/workspaces/Test2.0/build/tests/test_developer[1]_tests.cmake")
+else()
+  add_test(test_developer_NOT_BUILT test_developer_NOT_BUILT)
+endif()

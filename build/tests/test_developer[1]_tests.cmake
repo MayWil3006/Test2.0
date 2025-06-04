@@ -1,0 +1,5 @@
+add_test([=[DeveloperTest.ConstructorAndGetters]=]  /workspaces/Test2.0/build/tests/test_developer [==[--gtest_filter=DeveloperTest.ConstructorAndGetters]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[DeveloperTest.ConstructorAndGetters]=]  PROPERTIES WORKING_DIRECTORY /workspaces/Test2.0/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+add_test([=[DeveloperTest.LoadLogoFromFile]=]  /workspaces/Test2.0/build/tests/test_developer [==[--gtest_filter=DeveloperTest.LoadLogoFromFile]==] --gtest_also_run_disabled_tests)
+set_tests_properties([=[DeveloperTest.LoadLogoFromFile]=]  PROPERTIES WORKING_DIRECTORY /workspaces/Test2.0/build/tests SKIP_REGULAR_EXPRESSION [==[\[  SKIPPED \]]==])
+set(  test_developer_TESTS DeveloperTest.ConstructorAndGetters DeveloperTest.LoadLogoFromFile)
